@@ -1,7 +1,4 @@
 /**
- * Crea el cartón 2 y lo lista
- */
-/**
  * Crea un número aleatorio y comprueba si no está en la lista, si no está agrega el valor a la lista, y si está se vuelve a llamar
  */
 function Crear_numero (list: number[]) {
@@ -12,9 +9,8 @@ function Crear_numero (list: number[]) {
         Crear_numero(list)
     }
 }
-/**
- * Crea el cartón 1 y luego lo lista
- */
+// Saca una bola del bombo y comprueba los cartones
+// 
 input.onButtonPressed(Button.A, function () {
     bola = randint(0, bombo.length - 1)
     basic.showNumber(bombo.length)
@@ -54,6 +50,12 @@ function lucecitas1 (núm: number) {
 /**
  * Crea el cartón 1 y luego lo lista
  */
+/**
+ * Crea el cartón 2 y lo lista
+ */
+// Crea 3 listas
+// Bombo con 99 bolas
+// Y los 2 cartones aleatorios
 let y1 = 0
 let x1 = 0
 let aux1 = 0
